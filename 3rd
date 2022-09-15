@@ -1,0 +1,18 @@
+class array {
+    public static void main(String[] args) 
+    {
+        int  mynum[]= {1,2,3,4,5,6,7,8,9,10,11,12};
+        int max=mynum[0];
+        int min=mynum[0];
+        for(int i=0;i<mynum.length;i++)
+        {
+            if(mynum[i] < max)
+            max=mynum[i];
+            else if(mynum[i] > min)
+            min=mynum[i];
+        }
+        System.out.println("maxium;"+max);
+        System.out.println("minimum;"+min);
+        
+    }
+}
